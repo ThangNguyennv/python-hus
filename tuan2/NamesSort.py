@@ -26,26 +26,27 @@ def inputList():
     return all_groups
 
 def getName(s):
-    lname = '' # tên đệm
-    fname = '' # tên chính
-    parts = s.strip().split()
-    fname = parts[-1]
-    lname = " ".join(parts[1:-1]) if len(parts) > 2 else ""
-    return lname, fname
+    tokens = s.strip().split(' ')
+    fname = ''
+    sname = ''
+    if len(tokens) == 1:
+        fname = tokens[0]
+    else:  # ' '.join(tokens[:-1])
+        fname = tokens[len(tokens)-1] # fname = tokens[-1]
+        for i in range(0,len(tokens)-1): # " ".join(tokens[:-1])
+            sname = sname+ tokens[i]+' '
+        sname = sname.strip()
 
-def name_key(names):
-    parts = names.strip().split()
-    ten = parts[-1]
-    dem = " ".join(parts[1:-1]) if len(parts) > 2 else ""
-    return (
-        locale.strxfrm(ten),
-        locale.strxfrm(dem)
-    )
+    return sname, fname
+
+def compare(name):
+    sname, fname = getName(name)
+    return locale.strxfrm(fname), locale.strxfrm(sname)
 
 def sortNamesList(names):
     all_names = []
     for group in names:
-        namesSorted = sorted(group, key=name_key)
+        namesSorted = sorted(group, key=compare)
         all_names.append(namesSorted)
     return all_names
 

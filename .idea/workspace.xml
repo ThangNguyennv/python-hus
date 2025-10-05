@@ -5,19 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9fe6140-b862-40c9-b8bc-a740b88aa3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tuan2/CharSeq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/MagicSquare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/MultiMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/NamesSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/PascalTriangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/SecondMaxMin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/Seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/SortArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/isUpperTriangleMatrix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan2/transpose.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/AddAdv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/Multiadv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/Password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/SortAdv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/Statistical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan3/Vec.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan2/NamesSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuan2/NamesSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.AddAdv.executor": "Run",
     "Python.Base.executor": "Run",
     "Python.CharSeq.executor": "Run",
     "Python.EquationSolver.executor": "Run",
@@ -55,11 +51,14 @@
     "Python.Loan.executor": "Run",
     "Python.MagicSquare.executor": "Run",
     "Python.MultiMatrix.executor": "Run",
+    "Python.Multiadv.executor": "Run",
     "Python.NamesSort.executor": "Run",
     "Python.PascalTriangle.executor": "Run",
     "Python.PrimeParser.executor": "Run",
     "Python.PrintingPattern.executor": "Run",
+    "Python.SortAdv.executor": "Run",
     "Python.SortArray.executor": "Run",
+    "Python.Statistical.executor": "Run",
     "Python.Test.executor": "Run",
     "Python.__init__.executor": "Run",
     "Python.isUpperTriangleMatrix.executor": "Run",
@@ -72,8 +71,8 @@
     "last_opened_file_path": "C:/HUS_KHMT_K68/NNLTT2"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.NamesSort">
-    <configuration name="MagicSquare" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Multiadv">
+    <configuration name="AddAdv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan2/MagicSquare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/AddAdv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -95,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MultiMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Multiadv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan2/MultiMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/Multiadv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SortArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SortAdv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -148,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan2/SortArray.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/SortAdv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="isUpperTriangleMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Statistical" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,11 +169,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan2/isUpperTriangleMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/Statistical.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Multiadv" />
+        <item itemvalue="Python.AddAdv" />
+        <item itemvalue="Python.SortAdv" />
+        <item itemvalue="Python.Statistical" />
         <item itemvalue="Python.NamesSort" />
-        <item itemvalue="Python.isUpperTriangleMatrix" />
-        <item itemvalue="Python.MultiMatrix" />
-        <item itemvalue="Python.SortArray" />
-        <item itemvalue="Python.MagicSquare" />
       </list>
     </recent_temporary>
   </component>
