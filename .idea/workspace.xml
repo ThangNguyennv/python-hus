@@ -5,14 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9fe6140-b862-40c9-b8bc-a740b88aa3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tuan3/AddAdv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan3/Multiadv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan3/Password.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan3/SortAdv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan3/Statistical.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan3/Vec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/BankQuery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/BinDiv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/Calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/Pract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/Range.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/RevDict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/RevStrDict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/Station.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/StationManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/data/rain.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/data/station.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/StudentManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/grade.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/student.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuan2/NamesSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuan2/NamesSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,39 +48,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.AddAdv.executor": "Run",
-    "Python.Base.executor": "Run",
-    "Python.CharSeq.executor": "Run",
-    "Python.EquationSolver.executor": "Run",
-    "Python.GPACalculator.executor": "Run",
-    "Python.Loan.executor": "Run",
-    "Python.MagicSquare.executor": "Run",
-    "Python.MultiMatrix.executor": "Run",
-    "Python.Multiadv.executor": "Run",
-    "Python.NamesSort.executor": "Run",
-    "Python.PascalTriangle.executor": "Run",
-    "Python.PrimeParser.executor": "Run",
-    "Python.PrintingPattern.executor": "Run",
-    "Python.SortAdv.executor": "Run",
-    "Python.SortArray.executor": "Run",
-    "Python.Statistical.executor": "Run",
-    "Python.Test.executor": "Run",
-    "Python.__init__.executor": "Run",
-    "Python.isUpperTriangleMatrix.executor": "Run",
-    "Python.test.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "ToolWindow.Run.ShowToolbar": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/HUS_KHMT_K68/NNLTT2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.AddAdv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BankQuery.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.BinDiv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.CharSeq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.EquationSolver.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GPACalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Loan.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MagicSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiadv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NamesSort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PascalTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pract.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PrimeParser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PrintingPattern.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Range.executor&quot;: &quot;Run&quot;,
+    &quot;Python.RevStrDict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SortAdv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;Python.StationManager.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Statistical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.isUpperTriangleMatrix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;ToolWindow.Run.ShowToolbar&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/HUS_KHMT_K68/NNLTT2/tuan4/bai_giua_ky_2023/data&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.Multiadv">
-    <configuration name="AddAdv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\HUS_KHMT_K68\NNLTT2\tuan4\bai_giua_ky_2023\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.StationManager">
+    <configuration name="BankQuery" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/AddAdv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan4/BankQuery.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Multiadv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BinDiv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/Multiadv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan4/BinDiv.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="NamesSort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Calc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,11 +145,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan2/NamesSort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan4/Calc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +158,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="SortAdv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="RevStrDict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,11 +167,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/SortAdv.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan4/RevStrDict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Statistical" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="StationManager" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,11 +189,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tuan4/bai_giua_ky_2023" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan3/Statistical.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/StationManager.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Multiadv" />
-        <item itemvalue="Python.AddAdv" />
-        <item itemvalue="Python.SortAdv" />
-        <item itemvalue="Python.Statistical" />
-        <item itemvalue="Python.NamesSort" />
+        <item itemvalue="Python.StationManager" />
+        <item itemvalue="Python.BankQuery" />
+        <item itemvalue="Python.Calc" />
+        <item itemvalue="Python.BinDiv" />
+        <item itemvalue="Python.RevStrDict" />
       </list>
     </recent_temporary>
   </component>
