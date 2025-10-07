@@ -5,22 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9fe6140-b862-40c9-b8bc-a740b88aa3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tuan4/BankQuery.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/BinDiv.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/Calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/Pract.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/Range.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/RevDict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/RevStrDict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/Station.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/StationManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/data/rain.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/data/station.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/Student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/StudentManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/grade.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/student.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/StationManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_2023/StationManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/Student.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/Student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/StudentManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/StudentManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/student.csv" beforeDir="false" afterPath="$PROJECT_DIR$/tuan4/bai_giua_ky_hk2_2023/data/student.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

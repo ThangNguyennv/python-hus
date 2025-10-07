@@ -1,4 +1,4 @@
-name,sid,department
+name,sid,department,grade
 Nguyễn Minh Đức,20001232,Physics
 Phạm Nam Anh,22000101,Mathematics
 Nguyễn Thanh Tùng,19009935,Mathematics
@@ -8,3 +8,6 @@ Trần Văn Long,20008838,Chemistry
 Trần Khánh Linh,22002498,Chemistry
 Đinh Văn Tùng,21004967,Chemistry
 Nguyễn Thanh Hải,19003642,Physics
+Phạm Thắng,20006863,Chemistry
+Trần Văn Long,20008838,Chemistry
+Nguyễn Minh Đức,20001232,Physics

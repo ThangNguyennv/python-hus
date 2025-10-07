@@ -1,6 +1,7 @@
 from Student import Student
 import csv
 
+
 def read_student_from_file(studentFile):
     """
     Hàm đọc tệp dữ liệu sinh viên. Hàm này thực hiện đọc dữ liệu của các sinh viên từ
@@ -49,21 +50,32 @@ def read_grade_from_file(gradeFile, student_list):
     18006360,71,64,38,32,32
     19003301,88,33,70,41,87
     19003563,64,46,79,85,52
-
+    {'18000144' : {'CS': 55, 'CV': 53, 'DSA': 62, 'MAT': 87, 'ML': 44}}
 
     """
     with open(gradeFile, 'r', encoding='utf-8') as f:
         reader = csv.reader(f)
         header = next(reader)
 
+        lesson_names = header[1:]
         grade_dicts = {}
+
         for row in reader:
-            ids = row[0]
-            grade_values = row[1:]
-            # grade_dicts[] = grade_values
+            ids = int(row[0])  # cột đầu tiên là các giá trị id
+            grade_values = row[1:]  # từ cột 1 trở đi là điểm của từng môn học
+            grades = {}
+            for i, name in enumerate(lesson_names):
+                try:
+                    grade_value = int(grade_values[i])
+                except ValueError:
+                    grade_value = 0
+                grades[name] = grade_value
+
+            grade_dicts[ids] = grades
 
         for student in student_list:
-            student.grade = grade_dicts
+            if student.sid in grade_dicts:
+                student.grade = grade_dicts[student.sid]
 
 
 def get_best_student_avg_grade(student_list):
@@ -71,7 +83,17 @@ def get_best_student_avg_grade(student_list):
     Hàm thực hiện trả về tên 2 sinh viên có điểm trung bình thấp nhất và cao nhất.
     Ouput: (Nguyễn Văn A, Nguyễn Văn B)
     """
-    return None
+    for student in student_list:
+        student.averageGrade = student.get_avg_grade()
+    maxAverageGrade = max(s.averageGrade for s in student_list)
+    minAverageGrade = min(s.averageGrade for s in student_list)
+    maxAverageGradeHasStudent = [s for s in student_list if s.averageGrade == maxAverageGrade]
+    minAverageGradeHasStudent = [s for s in student_list if s.averageGrade == minAverageGrade]
+    a = [s for s in maxAverageGradeHasStudent]
+    b = [s for s in minAverageGradeHasStudent]
+    max_name = a[0].name
+    min_name = b[0].name
+    return (min_name, max_name)
 
 
 def get_best_student_by_year(student_list, year, class_id):
@@ -83,7 +105,20 @@ def get_best_student_by_year(student_list, year, class_id):
     => tìm ra sinh viên có điểm môn 'CS' cao nhất trong số các sinh viên năm 3.
     output: {name:Trần Hải Anh, mssv:20000848, department:Biology}
     """
-    return None
+    year_student_list = [s for s in student_list if s.get_year() == year]
+    max_value_class_id_student = -99999999
+    for s in year_student_list:
+        key_list = s.grade.keys()
+        for key in key_list:
+            if key == class_id:
+                max_value_class_id_student = max(max_value_class_id_student, s.grade[key])
+
+    new_student_list = [s for s in year_student_list if s.grade[class_id] == max_value_class_id_student]
+    result = []
+    for s in new_student_list:
+        formatted = f"{{name:{s.name}, sid:{s.sid}, department:{s.department}}}"
+        result.append(formatted)
+    return " ".join(result)
 
 
 def sorted_department_by_avg_student_grade(student_list):
@@ -91,4 +126,29 @@ def sorted_department_by_avg_student_grade(student_list):
     Hàm trả về một danh sách các khoa được sắp xếp theo thứ tự tăng dần điểm thi trung bình
     của các sinh viên thuộc khoa đó.
     """
-    return []
+    for s in student_list:
+        s.averageGrade = s.get_avg_grade()
+    department_average_grade = {}
+
+    department_list = []
+    for s in student_list:
+        department_list.append(s.department)
+    unique_departments = set(department_list)
+    for d in unique_departments:
+        department_average_grade[d] = {}
+
+    for d in department_list:
+        sum_grade = 0
+        count = 0
+        for s in student_list:
+            if s.department == d:
+                sum_grade += s.averageGrade
+                count += 1
+        department_average_grade[d] = sum_grade / count
+
+    # {'Physics': 1,'Mathematics': 2, 'Chemistry': 1, 'Biology': 5}
+    new_student_list = dict(sorted(department_average_grade.items(), key=lambda item: item[1]))
+    result = []
+    for k in new_student_list.keys():
+        result.append(k)
+    return result

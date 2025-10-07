@@ -30,19 +30,21 @@ class Student:
         ...
         sid bắt đầu bằng 1800: sinh viên năm 5
         """
-        if self.sid == '2200':
+        if str(self.sid)[:2] == '22':
             return 1
-        elif self.sid == '2100':
+        elif str(self.sid)[:2] == '21':
             return 2
-        elif self.sid == '2000':
+        elif str(self.sid)[:2] == '20':
             return 3
-        elif self.sid == '1900':
+        elif str(self.sid)[:2] == '19':
             return 4
-        elif self.sid == '1800':
+        elif str(self.sid)[:2] == '18':
             return 5
         return None
     def get_avg_grade(self):
         """
         Hàm trả về điểm trung bình của sinh viên
         """
-        return (self.grade['CS'] + self.grade['CV'] + self.grade['DSA'] + self.grade['MAT'] + self.grade['ML']) / 5
+        total = sum(self.grade.values())
+        count = len(self.grade)
+        return total / count

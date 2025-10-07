@@ -62,7 +62,7 @@ def read_rain_fromfile(rain_file, station_list):
     '''
     with open(rain_file, encoding='utf-8') as f:
         reader = csv.reader(f)
-        header = next(reader)  # Bỏ qua dòng tiêu đề
+        header = next(reader)  # lấy dòng tiêu đề, sau đó reader sẽ không đọc dòng tiêu đề nữa
 
         # Danh sách tên trạm (bỏ cột đầu tiên là "time")
         station_names = header[1:]
@@ -72,17 +72,17 @@ def read_rain_fromfile(rain_file, station_list):
         for s in station_list:
             name_to_station[s.name] = s
 
-
         # Khởi tạo dict mưa rỗng cho từng trạm
         rain_dicts = {}
         for name in station_names:
             rain_dicts[name] = {}
 
-        # Đọc từng dòng dữ liệu mưa
+        # Đọc từng dòng(hàng) dữ liệu mưa
         for row in reader:
-            date = row[0]  # cột đầu tiên là ngày
-            rain_values = row[1:]  # còn lại là các giá trị mưa
+            date = row[0]  # giá trị đầu tiên là thời gian(ngày)
+            rain_values = row[1:]  # còn lại là tất cả các giá trị mưa
 
+            # enumerate: hàm duyệt có chỉ số(index)
             for i, name in enumerate(station_names):
                 try:
                     rain_value = float(rain_values[i])
